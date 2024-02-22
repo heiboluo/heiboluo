@@ -10,12 +10,36 @@
         background-color: #f1f1f1;
         text-align: center;
         padding: 40px;
-        ">
+        font-size：9px">
         <img src="retouch_2024021921453138.png" alt="黑菠萝" width="80px" height="80px">
         <p>小李是黑菠萝</p>
+        <p>当前时间</p>
+        <script>
+function startTime(){
+	var today=new Date();
+	var h=today.getHours();
+	var m=today.getMinutes();
+	var s=today.getSeconds();// 在小于10的数字前加一个‘0’
+	m=checkTime(m);
+	s=checkTime(s);
+	document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+	t=setTimeout(function(){startTime()},500);
+}
+function checkTime(i){
+	if (i<10){
+		i="0" + i;
+	}
+	return i;
+}
+</script>
+</head>
+<body onload="startTime()">
+	
+<div id="txt"></div>
+	
     </div>
     <div style="
-    max-width: 700pc;
+    max-width: 700px;
     margin: 30px auto;
     padding: 15px;
     line-height: 1.7;">
@@ -32,7 +56,7 @@
         background-color: #f1f1f1;
         text-align: center;
         padding: 30px;
-        font-size: 5px;
+        font-size: 10px;
         ">
         <p>短视频平台</p>
         <a href="https://v.douyin.com/iNHd3VfF/ 1@7.com :4pm">抖音</a>
