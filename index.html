@@ -16,8 +16,28 @@
         <p>小李是黑菠萝</p>
         <p>当前时间</p>
 	<script>
-document.write(Date());
-	</script>
+function startTime(){
+	var today=new Date();
+	var h=today.getHours();
+	var m=today.getMinutes();
+	var s=today.getSeconds();// 在小于10的数字前加一个‘0’
+	m=checkTime(m);
+	s=checkTime(s);
+	document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+	t=setTimeout(function(){startTime()},500);
+}
+function checkTime(i){
+	if (i<10){
+		i="0" + i;
+	}
+	return i;
+}
+</script>
+</head>
+<body onload="startTime()">
+	
+<div id="txt"></div>
+</body>
     </div>
     <div style="
     max-width: 700px;
