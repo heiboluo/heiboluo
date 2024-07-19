@@ -4,4 +4,4 @@
 - 我正在自学前端
 - 我的联系方式：
   - Email： heiboluohbl@163.com
-  - WeChat： ＼_HEIBOLUO_＼
+  - WeChat： _＼HEIBOLUO＼_
