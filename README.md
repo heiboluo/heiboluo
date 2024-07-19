@@ -2,4 +2,6 @@
 
 - 我来自中国
 - 我正在自学前端
-- 我的联系方式：heiboluohbl@163.com
+- 我的联系方式：
+  - Email heiboluohbl@163.com
+  -  _HEIBOLUO_
