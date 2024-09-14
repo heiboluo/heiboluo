@@ -1,8 +1,3 @@
 ## 黑菠萝
 
-> 我的愿望是世界和平
-
-- 我在中国🇨🇳
-- ⌨️我正在学习前端（HTML，CSS，JavaScript…）
-- 📞我的联系方式：
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?heiboluo=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
