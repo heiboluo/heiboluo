@@ -4,7 +4,7 @@
 ---
 ### 我的仓库
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=heiboluo&repo=Reproduction-series)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=heiboluo&repo=Reproduction-series)](https://github.com/heiboluo/Reproduction-series)
 
 ### 我的语言分布
 
